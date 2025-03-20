@@ -49,6 +49,45 @@ aside > :last-child {
   background-color: dodgerblue;
 }
 
+@media (min-width:640px){
+.kontejner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu {
+  width: 30%;
+}
+
+.obsah {
+  width: 70%;
+}
+
+.reklama {
+  width: 100%;
+}
+}
+
+@media (min-width:1000px){
+  .kontejner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .menu {
+    width: 20%;
+  }
+  
+  .obsah {
+    width: 60%;
+  }
+  
+  .reklama {
+    width: 20%;
+  }
+  }
 /* ---------------------------------------------------- */
 
 /*
